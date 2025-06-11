@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personal Profile</title>
 
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+</head>
+<body class="bg-light">
+
+<div class="container my-5 p-4 bg-white rounded shadow" style="max-width: 700px;">
+
+  <!-- Profile Image -->
+  <div class="text-center mb-4">
+    <img src="https://avatars.githubusercontent.com/u/59690052?v=4" alt="Profile Picture" class="rounded-circle border border-primary" width="140" height="140" />
+  </div>
+
+  <section id="name" class="mb-4">
+    <h2 class="border-bottom border-primary pb-2">Name</h2>
+    <p class="fs-5">John Doe</p>
+  </section>
+
+  <section id="email" class="mb-4">
+    <h2 class="border-bottom border-primary pb-2">Email</h2>
+    <p><a href="mailto:john.doe@example.com" class="text-decoration-none text-primary fw-semibold">john.doe@example.com</a></p>
+  </section>
+
+  <section id="profile" class="mb-4">
+    <h2 class="border-bottom border-primary pb-2">Profile</h2>
+    <p class="fs-5">Front-End Developer applying for the role of UI/UX Designer.</p>
+  </section>
+
+  <section id="about-me" class="mb-4">
+    <h2 class="border-bottom border-primary pb-2">About me</h2>
+    <p class="fs-6 text-secondary">
+      Passionate and creative developer with 5+ years of experience building responsive and user-friendly web interfaces. Skilled in modern JavaScript frameworks and dedicated to continuous learning.
+    </p>
+  </section>
+
+  <section id="skills" class="mb-4">
+    <h2 class="border-bottom border-primary pb-3">Skills</h2>
+
+    <div class="mb-3">
+      <div class="d-flex align-items-center mb-1">
+        <i class="bi bi-react fs-4 text-primary me-2"></i>
+        <strong class="fs-5">React</strong>
+      </div>
+      <div class="progress" style="height: 20px;">
+        <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;">85%</div>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <div class="d-flex align-items-center mb-1">
+        <i class="bi bi-file-code-fill fs-4 text-success me-2"></i>
+        <strong class="fs-5">HTML & CSS</strong>
+      </div>
+      <div class="progress" style="height: 20px;">
+        <div class="progress-bar bg-success" role="progressbar" style="width: 90%;">90%</div>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <div class="d-flex align-items-center mb-1">
+        <i class="bi bi-code-slash fs-4 text-warning me-2"></i>
+        <strong class="fs-5">JavaScript</strong>
+      </div>
+      <div class="progress" style="height: 20px;">
+        <div class="progress-bar bg-warning text-dark" role="progressbar" style="width: 80%;">80%</div>
+      </div>
+    </div>
+
+    <div>
+      <div class="d-flex align-items-center mb-1">
+        <i class="bi bi-brush fs-4 text-info me-2"></i>
+        <strong class="fs-5">UI/UX Design</strong>
+      </div>
+      <div class="progress" style="height: 20px;">
+        <div class="progress-bar bg-info" role="progressbar" style="width: 70%;">70%</div>
+      </div>
+    </div>
+
+  </section>
+
+</div>
+
+<!-- Bootstrap JS (optional, only if you want interactive components) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
